@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+  <script>
+    function toggleElement(){
+    var x=  document.getElementById("collapsibleNavbar");
+    if(x.style.display==="none"){
+    x.style.display="block";
+    } else
+    {
+      x.style.display="none";
+    }
+  }
+</script>
+
+	<title> My porfolio</title>
+</head>
+<body>
+  <!-- Navigation-->
+
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="Index.html">Abenezer Abebe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon " onclick="toggleElement()"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav" >
+          <li class="nav-item">
+            <a class="nav-link" href="Index.html"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html"> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Project.html"> Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Resume.html"> Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html"> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+<section class="rheader">
+    <div class="container">
+        <h1>Get in touch</h1>
+    </div>
+   <p>Please contact me using the form below and allow 1-2 business days for your 
+    response. We recommend adding abenezer537@gmail.com to your email contacts to
+     ensure that you always get our emails in your inbox. Please note that
+     all communications will be used in accordance with my privacy policy.
+         </p> 
+   </section>
+
+
+<!--my-info-->
+<h2>MY CONTACT ADDRESS</h2>
+<section class="contact-content">
+  
+<!--left-grid-->
+<div class="container">
+   
+<div class="card">
+  <div class="card-body">
+   <h3><img src="112.png" width="9%" height="9%">Call</h3>
+	Mobile +251934340172
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h3><img src="111.png" width="9%em" height="9%em">Email</h3>
+	abenezer537@gmail.com
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h3>Location</h3>
+	Based in Dire Dawa, Ethiopia
+  </div>
+</div>
+
+
+
+</div>
+<!--right-grid-->
+
+<div class="conainer">
+ <h2 color="silver">E-MAIL ME</h2>
+<form class="contact-form" method="post">
+	<label for="name">Full Name
+		<input type="text" id="name"  name="" placeholder="Name" required>
+	</label>
+	<label for="email">E-mail 
+		<input type="E-mail" id="email" name="" placeholder="Email" required>
+	</label>
+	<label for="message">Message
+		<textarea id="message" rows="5" cols="25" placeholder="Message" required></textarea>
+	</label>
+	
+		<button type="submit" name=" " value="Send"> Send</button>
+</form>
+
+  </div>
+
+
+</section>
+
+
+ <section class="social">
+      <div class="container">
+        <h2 class="section-title">Social Media</h2>
+        <p class="section-title" id="ptitle" >Follow Me on.... </p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icons">
+                        <h1>Telegram<h1>
+                    </div>
+                     <h2><img src="115.png" width="30%em" height="30%em"></h2>
+                     <a href="#">Go to Telegram</a>
+            </div>
+          
+          <div class="feature-card">
+                    <div class="feature-icons">
+                        <h1 >Linked-In</h1>
+                    </div>
+                  <h2><img src="in.png" width="30%em" height="30%em"></h2>
+                  <a href="#">Go to Linked-In</a>
+          </div>
+            
+          <div class="feature-card">
+                    <div class="feature-icons">
+                        <h1 >Facebook</h1>
+                    </div>
+                  <h2><img src="face.png" width="30%em" height="30%em"></h2>
+                  <a href="#">Go to Facebook</a>
+          </div>
+           <div class="feature-card">
+                    <div class="feature-icons">
+                        <h1 >Twitter</h1>
+                    </div>
+                  <h2><img src="x.png" width="30%em" height="30%em"></h2>
+                  <a href="#">Go to Twitter</a>
+            </div>
+        </div>
+      </div>
+    </section>
+  <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 My Personal Website. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"><img src="115.png" width="4%em" height="4%em"></i></a>
+                <a href="#"><i class="fab fa-linkedin"><img src="in.png" width="4%em" height="4%em"></i></a>
+                <a href="#"><i class="fab fa-twitter"><img src="face.png" width="4%em" height="4%em"></i></a>
+                <a href="#"><i class="fab fa-instagram"><img src="x.png" width="4%em" height="4%em"></i></a>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
